@@ -4,8 +4,8 @@ A machine Learning project aimed at predicting the Insurance Premium Amount from
 ## Table of contents
 + Project Overview
 + Installation
-+ Usage 
-+ files
++ Files
++ Acknowledgement
 
 ### Project Overview
 The project was done for submission in the Kaggle Regression With an Insurance Dataset Playground Competition - Season 4, episode 12. The objectives of this challenge is to predict amount of insurance premiums given various features. The evaluation metric the competition body required was Root Mean Squared Logarithmic Error (RMSLE).
@@ -17,6 +17,12 @@ The steps taking in creating the model:
 - **Modelling**: This section involving applying machine learning models to our already clean datase. In this project Xgboost Regressor and Ensemble's Random Forest Regressor were both evaluated and tuned to find which found more pattern and learned better on the data. Xgboost learned better and produced a better RMSLE score of `1.05770`.
 
 ### Installation
+1. **Anaconda**
+	```bash
+	 https://www.anaconda.com/download
+	```
+
+### Files
 1. **Clone The Repository**
 	```bash
 	git clone https://github.com/Darc-lord/Insurance-Premium-Amount-Prediction.git
